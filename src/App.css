@@ -1,0 +1,155 @@
+#root {
+  max-width: 1280px;
+  margin:  auto;
+  padding: 2rem;
+}
+/* src/AcquisitionForm.css */
+.logo{
+  width: 80%;
+}
+.acquisition-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #1f307c;
+  border-radius: 5px;
+  background-color: #ffffff;
+  
+}
+.contenedorlogo {
+  display:flex;
+  flex-direction: column;
+  place-items:center;
+}
+
+.acquisition-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.acquisition-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.acquisition-form input,
+.acquisition-form textarea ,.acquisition-form select{
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  border: 1px solid #1f307c;
+  border-radius: 3px;
+}
+
+.acquisition-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0fc09ad8;
+  color: white;
+  font-weight:bold;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.acquisition-form button:hover {
+  background-color: #212847;
+}
+.contenedor-p{
+  display: flex;
+  }
+.contenedor-tabla{
+ margin-left: 30px; 
+ width: 900px;;
+}
+.contenedorft{
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-filtros{
+ display: flex;
+ place-items: center;
+ padding: 10px;
+ background-color: rgb(216, 224, 231);
+ margin: 0px 0px 10px 30px ;
+}
+.contenedor-filtros input
+{
+ width: 160px;
+ height: 25px;
+ border: 2px solid #1f307c;
+ border-radius: 3px;
+ margin-right: 10px;
+}
+.contenedor-filtros select
+{
+ width: 160px;
+ height: 30px;
+ border: 2px solid #1f307c;
+ border-radius: 3px;
+ margin-right: 10px;
+}
+.contenedor-modificar {
+margin-left:30px;
+padding:20px;
+background-color:rgb(216, 224, 231);
+margin-top: 20px;
+margin-bottom:20px;
+
+}
+.contenedor-modificar label{
+  width:200px;
+  display: block;
+  margin: 3px;
+  height: 20px;
+  color: #1f307c;
+  font-weight: bold;
+} 
+.contenedor-modificar input{
+  width:200px;
+  display: block;
+  margin: 3px;
+  height: 25px;
+  border: 2px solid #1f307c;
+
+}
+.contenedor-modificar button{
+ padding: 10px;
+ background-color: #1f307c;
+ color: white;
+ font-weight: bold;
+ border: none;
+ font-size: 15px; 
+}
+.label-conte{
+  display: flex;
+  
+}
+.botonmodificar{
+  padding: 10px;
+  background-color: transparent;
+  color: #1f307c;
+  font-weight: bold;
+  border: none;
+  width: 88px;
+}
+.botoneliminar{
+  padding: 10px;
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+  border: none;
+  width: 88px;
+}
+.botonhabilitar{
+  padding: 10px;
+  background-color: transparent;
+  color: rgb(67, 167, 81);
+  font-weight: bold;
+  border: none;
+  width: 88px;
+}
